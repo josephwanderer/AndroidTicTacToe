@@ -112,5 +112,20 @@
         android:layout_height="match_parent"
         android:layout_below="@+id/tableLayout"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"></LinearLayout>
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:id="@+id/gameStatusTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/newGameButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/newGame_button" />
+    </LinearLayout>
 </RelativeLayout>
